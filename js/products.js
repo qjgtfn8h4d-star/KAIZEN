@@ -1,33 +1,27 @@
 /* ==========================================================
    KAIZEN — DATOS EDITABLES
    ========================================================== */
-
 // ---- Configuración general --------------------------------
 const WHATSAPP_NUMBER    = "59891892109";
 const INSTAGRAM_USERNAME = "kaizen.olf";
 const STORE_NAME         = "KAIZEN";
 const STORE_LOCATION     = "Montevideo, Uruguay";
 const MP_INSTALLMENTS    = 3;
-
 const FEATURED = [
   "lattafa-khamrah",
   "french-avenue-liquid-brun",
   "lattafa-oud-for-glory"
 ];
-
 /* ----------------------------------------------------------
    PRODUCTOS
    transfer = precio por transferencia
    mp       = precio Mercado Pago
    null     = consultar
    ---------------------------------------------------------- */
-
 const PRODUCTS = [
-
   // =========================================================
   // FRENCH AVENUE / PARIS CORNER
   // =========================================================
-
   {
     id: "french-avenue-liquid-brun",
     brand: "French Avenue",
@@ -39,7 +33,6 @@ const PRODUCTS = [
     mp: 3490,
     image: "liquid-brun.webp"
   },
-
   {
     id: "paris-corner-mandarin-sky",
     brand: "Armaf",
@@ -51,36 +44,31 @@ const PRODUCTS = [
     mp: 2990,
     image: "mandarin-sky.webp"
   },
-
   {
     id: "french-avenue-vulcan-baie",
     brand: "French Avenue",
     name: "Vulcan Baie",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3190,
     mp: 3490,
     image: "vulcan-baie.webp"
   },
-
   {
     id: "french-avenue-vulcan-sable",
     brand: "French Avenue",
     name: "Vulcan Sable",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3190,
     mp: 3490,
     image: "vulcan-sable.webp"
   },
-
-
   // =========================================================
   // AL HARAMAIN
   // =========================================================
-
   {
     id: "al-haramain-gold",
     brand: "Al Haramain",
@@ -92,7 +80,6 @@ const PRODUCTS = [
     mp: 4590,
     image: "amber-oud-gold-edition.webp"
   },
-
   {
     id: "al-haramain-amber-oud-gold-edition-extreme",
     brand: "Al Haramain",
@@ -104,72 +91,64 @@ const PRODUCTS = [
     mp: 4690,
     image: "amber-oud-gold-extreme.webp"
   },
-
   {
     id: "al-haramain-bleu",
     brand: "Al Haramain",
     name: "Bleu",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3790,
     mp: 4190,
-    image: ""
+    image: "al-haramain-bleu.webp"
   },
-
   {
     id: "al-haramain-aqua",
     brand: "Al Haramain",
     name: "Aqua",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3790,
     mp: 4190,
-    image: ""
+    image: "al-haramain-aqua.webp"
   },
-
   {
     id: "al-haramain-dubai-night",
     brand: "Al Haramain",
     name: "Dubai Night",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3590,
     mp: 3990,
-    image: ""
+    image: "al-haramain-dubai-night.webp"
   },
-
   {
     id: "al-haramain-ruby",
     brand: "Al Haramain",
     name: "Ruby",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3790,
     mp: 4190,
-    image: ""
+    image: "al-haramain-ruby.webp"
   },
-
   {
     id: "al-haramain-detour-noir",
     brand: "Al Haramain",
     name: "Detour Noir",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2890,
     mp: 3190,
-    image: ""
+    image: "al-haramain-detour-noir.webp"
   },
-
-
   // =========================================================
   // LATTAFA
   // =========================================================
-
   {
     id: "lattafa-yara",
     brand: "Lattafa",
@@ -181,7 +160,6 @@ const PRODUCTS = [
     mp: 2890,
     image: "yara.webp"
   },
-
   {
     id: "lattafa-dynasty",
     brand: "Lattafa",
@@ -193,7 +171,6 @@ const PRODUCTS = [
     mp: 2990,
     image: "dynasty.webp"
   },
-
   {
     id: "lattafa-khamrah",
     brand: "Lattafa",
@@ -205,43 +182,39 @@ const PRODUCTS = [
     mp: 2990,
     image: "khamrah.webp"
   },
-
   {
     id: "lattafa-khamrah-qahwa",
     brand: "Lattafa",
     name: "Khamrah Qahwa",
     category: "arabe",
-    concentration: "",
+    concentration: "Eau de Parfum",
     ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "khamrah-qahwa.webp"
   },
-
   {
     id: "lattafa-khamrah-dukhan",
     brand: "Lattafa",
     name: "Khamrah Dukhan",
     category: "arabe",
-    concentration: "",
+    concentration: "Eau de Parfum",
     ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "khamrah-dukhan.webp"
   },
-
   {
     id: "lattafa-khamrah-waha",
     brand: "Lattafa",
     name: "Khamrah Waha",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3490,
     mp: 3790,
-    image: ""
+    image: "khamrah-waha.webp"
   },
-
   {
     id: "lattafa-asad",
     brand: "Lattafa",
@@ -251,21 +224,19 @@ const PRODUCTS = [
     ml: 100,
     transfer: 2390,
     mp: 2690,
-    image: ""
+    image: "asad.webp"
   },
-
   {
     id: "lattafa-asad-zanzibar",
     brand: "Lattafa",
     name: "Asad Zanzibar",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2290,
     mp: 2590,
-    image: ""
+    image: "asad-zanzibar.webp"
   },
-
   {
     id: "lattafa-asad-bourbon",
     brand: "Lattafa",
@@ -277,91 +248,83 @@ const PRODUCTS = [
     mp: 2990,
     image: "asad-bourbon.webp"
   },
-
   {
     id: "lattafa-fakhar",
     brand: "Lattafa",
     name: "Fakhar",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2290,
     mp: 2590,
-    image: ""
+    image: "fakhar.webp"
   },
-
   {
     id: "lattafa-eclaire",
     brand: "Lattafa",
     name: "Eclaire",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "eclaire.webp"
   },
-
   {
     id: "lattafa-emaan",
     brand: "Lattafa",
     name: "Emaan",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2390,
     mp: 2590,
-    image: ""
+    image: "emaan.webp"
   },
-
   {
     id: "lattafa-mayar",
     brand: "Lattafa",
     name: "Mayar",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2390,
     mp: 2590,
-    image: ""
+    image: "mayar.webp"
   },
-
   {
     id: "lattafa-mayar-cherry",
     brand: "Lattafa",
     name: "Mayar Cherry",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2790,
     mp: 3090,
-    image: ""
+    image: "mayar-cherry.webp"
   },
-
   {
     id: "lattafa-atlas",
     brand: "Lattafa",
     name: "Atlas",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "atlas.webp"
   },
-
   {
     id: "lattafa-oud-for-glory",
     brand: "Lattafa",
     name: "Badee Al Oud Oud for Glory",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2600,
     mp: 2890,
     image: "oud-for-glory.webp"
   },
-
   {
     id: "lattafa-the-kingdom",
     brand: "Lattafa",
@@ -373,7 +336,6 @@ const PRODUCTS = [
     mp: 2590,
     image: "the-kingdom.webp"
   },
-
   {
     id: "lattafa-opulent-dubai",
     brand: "Lattafa",
@@ -385,7 +347,6 @@ const PRODUCTS = [
     mp: 2490,
     image: "opulent-dubai.webp"
   },
-
   {
     id: "lattafa-hayaati-al-maleky",
     brand: "Lattafa",
@@ -395,14 +356,11 @@ const PRODUCTS = [
     ml: 100,
     transfer: 2390,
     mp: 2690,
-    image: ""
+    image: "hayaati-al-maleky.webp"
   },
-
-
   // =========================================================
   // AFNAN
   // =========================================================
-
   {
     id: "afnan-9pm-night-out",
     brand: "Afnan",
@@ -414,24 +372,20 @@ const PRODUCTS = [
     mp: 4590,
     image: "9pm-night-out.webp"
   },
-
   {
     id: "turathi-blue-gift-set",
     brand: "Afnan",
     name: "Turathi Blue Gift Set",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 90,
     transfer: 3690,
     mp: 3990,
-    image: ""
+    image: "turathi-blue-gift-set.webp"
   },
-
-
   // =========================================================
   // RASASI
   // =========================================================
-
   {
     id: "rasasi-hawas-elixir",
     brand: "Rasasi",
@@ -443,7 +397,6 @@ const PRODUCTS = [
     mp: 3490,
     image: "hawas-elixir.webp"
   },
-
   {
     id: "rasasi-hawas-malibu",
     brand: "Rasasi",
@@ -455,7 +408,6 @@ const PRODUCTS = [
     mp: 3590,
     image: "hawas-malibu.webp"
   },
-
   {
     id: "rasasi-hawas-tropical-for-him",
     brand: "Rasasi",
@@ -467,7 +419,6 @@ const PRODUCTS = [
     mp: 3590,
     image: "hawas-tropical.webp"
   },
-
   {
     id: "rasasi-hawas-for-him",
     brand: "Rasasi",
@@ -477,9 +428,8 @@ const PRODUCTS = [
     ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "hawas-for-him.webp"
   },
-
   {
     id: "rasasi-hawas-for-her",
     brand: "Rasasi",
@@ -489,14 +439,11 @@ const PRODUCTS = [
     ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "hawas-for-her.webp"
   },
-
-
   // =========================================================
   // RAYHAAN
   // =========================================================
-
   {
     id: "rayhaan-pacific",
     brand: "Rayhaan",
@@ -508,24 +455,20 @@ const PRODUCTS = [
     mp: 3290,
     image: "rayhaan-pacific.webp"
   },
-
   {
     id: "rayhaan-elixir",
     brand: "Rayhaan",
     name: "Elixir",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3290,
     mp: 3590,
     image: "rayhaan-elixir.webp"
   },
-
-
   // =========================================================
   // MAST PERFUME
   // =========================================================
-
   {
     id: "mast-perfume-rome-yum-yum",
     brand: "Mast Perfume",
@@ -537,7 +480,6 @@ const PRODUCTS = [
     mp: 3490,
     image: "rome-yum-yum.webp"
   },
-
   {
     id: "mast-perfume-rome-pour-homme",
     brand: "Mast Perfume",
@@ -549,12 +491,9 @@ const PRODUCTS = [
     mp: 3490,
     image: "rome-pour-homme.webp"
   },
-
-
   // =========================================================
   // RIIFFS
   // =========================================================
-
   {
     id: "riiffs-freeze",
     brand: "Riiffs",
@@ -566,7 +505,6 @@ const PRODUCTS = [
     mp: 3990,
     image: "freeze.webp"
   },
-
   {
     id: "riiffs-freeze-in-flames",
     brand: "Riiffs",
@@ -578,24 +516,20 @@ const PRODUCTS = [
     mp: 4190,
     image: "freeze-in-flames.webp"
   },
-
   {
     id: "riiffs-momento",
     brand: "Riiffs",
     name: "Momento Riiffs",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Extrait de Parfum",
+    ml: 100,
     transfer: 2890,
     mp: 3190,
-    image: ""
+    image: "momento-riiffs.webp"
   },
-
-
   // =========================================================
   // MAISON ALHAMBRA
   // =========================================================
-
   {
     id: "maison-alhambra-bad-femme",
     brand: "Maison Alhambra",
@@ -607,7 +541,6 @@ const PRODUCTS = [
     mp: 2790,
     image: "bad-femme.webp"
   },
-
   {
     id: "maison-alhambra-jean-lowe-vibe",
     brand: "Maison Alhambra",
@@ -619,7 +552,6 @@ const PRODUCTS = [
     mp: 3090,
     image: "jean-lowe-vibe.webp"
   },
-
   {
     id: "maison-alhambra-jean-lowe-azure",
     brand: "Maison Alhambra",
@@ -629,38 +561,33 @@ const PRODUCTS = [
     ml: 100,
     transfer: 2790,
     mp: 3090,
-    image: ""
+    image: "jean-lowe-azure.webp"
   },
-
   {
     id: "maison-alhambra-dubai-chocolate",
     brand: "Maison Alhambra",
     name: "Dubai Chocolate",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "dubai-chocolate.webp"
   },
-
   {
     id: "artisan-ethnique-gift-set",
     brand: "Maison Alhambra",
     name: "Artisan Ethnique Gift Set",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 3390,
     mp: 3690,
-    image: ""
+    image: "artisan-ethnique-gift-set.webp"
   },
-
-
   // =========================================================
   // ARMAF
   // =========================================================
-
   {
     id: "armaf-club-de-nuit-intense-man",
     brand: "Armaf",
@@ -672,43 +599,39 @@ const PRODUCTS = [
     mp: 3990,
     image: "club-de-nuit-intense-man.webp"
   },
-
   {
     id: "armaf-club-de-nuit-intense-man-extrait",
     brand: "Armaf",
     name: "Club de Nuit Intense Man Extrait",
     category: "arabe",
     concentration: "Extrait de Parfum",
-    ml: null,
+    ml: 105,
     transfer: 3590,
     mp: 3990,
     image: "club-de-nuit-intense-man-extrait.webp"
   },
-
   {
     id: "armaf-club-de-nuit-intense-man-presentacion",
     brand: "Armaf",
     name: "Club de Nuit Intense",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 105,
     transfer: 2800,
     mp: 3090,
     image: "club-de-nuit-intense-man.webp"
   },
-
   {
     id: "armaf-club-de-nuit-woman-extrait",
     brand: "Armaf",
     name: "Club de Nuit Woman Extrait",
     category: "arabe",
     concentration: "Extrait de Parfum",
-    ml: null,
+    ml: 105,
     transfer: 3290,
     mp: 3590,
     image: "club-de-nuit-woman-extrait.webp"
   },
-
   {
     id: "armaf-club-de-nuit-woman",
     brand: "Armaf",
@@ -720,7 +643,6 @@ const PRODUCTS = [
     mp: 3290,
     image: "club-de-nuit-woman.webp"
   },
-
   {
     id: "armaf-club-de-nuit-urban-man-elixir",
     brand: "Armaf",
@@ -732,132 +654,119 @@ const PRODUCTS = [
     mp: 3690,
     image: "club-de-nuit-urban-man-elixir.webp"
   },
-
   {
     id: "armaf-club-de-nuit-precieux-i",
     brand: "Armaf",
     name: "Club de Nuit Precieux I",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 105,
     transfer: 3490,
     mp: 3790,
     image: "club-de-nuit-precieux.webp"
   },
-
   {
     id: "armaf-dunescape-dubai",
     brand: "Armaf",
     name: "Dunescape",
     category: "arabe",
     concentration: "Extrait de Parfum",
-    ml: null,
+    ml: 100,
     transfer: 3390,
     mp: 3690,
     image: "dunescape-dubai.webp"
   },
-
   {
     id: "armaf-odyssey-mega",
     brand: "Armaf",
     name: "Odyssey Mega",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2690,
     mp: 2990,
-    image: ""
+    image: "odyssey-mega.webp"
   },
-
   {
     id: "armaf-odyssey-homme-black",
     brand: "Armaf",
     name: "Odyssey Homme Black",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "odyssey-homme-black.webp"
   },
-
   {
     id: "armaf-odyssey-homme-white",
     brand: "Armaf",
     name: "Odyssey Homme White",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2490,
     mp: 2790,
-    image: ""
+    image: "odyssey-homme-white.webp"
   },
-
   {
     id: "armaf-odyssey-bahamas",
     brand: "Armaf",
     name: "Odyssey Bahamas",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2390,
     mp: 2690,
-    image: ""
+    image: "odyssey-bahamas.webp"
   },
-
   {
     id: "armaf-odyssey-montagne",
     brand: "Armaf",
     name: "Odyssey Montagne",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2690,
     mp: 2990,
-    image: ""
+    image: "odyssey-montagne.webp"
   },
-
   {
     id: "armaf-club-de-nuit-iconic",
     brand: "Armaf",
     name: "Club de Nuit Iconic",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 105,
     transfer: 2890,
     mp: 3190,
-    image: ""
+    image: "club-de-nuit-iconic.webp"
   },
-
   {
     id: "armaf-club-de-nuit-sillage",
     brand: "Armaf",
     name: "Club de Nuit Sillage",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 105,
     transfer: 2890,
     mp: 3190,
-    image: ""
+    image: "club-de-nuit-sillage.webp"
   },
-
   {
     id: "armaf-club-de-nuit-milestone",
     brand: "Armaf",
     name: "Club de Nuit Milestone",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 105,
     transfer: 2890,
     mp: 3190,
-    image: ""
+    image: "club-de-nuit-milestone.webp"
   },
-
-
   // =========================================================
   // BHARARA
   // =========================================================
-
   {
     id: "bharara-king",
     brand: "Bharara",
@@ -869,34 +778,29 @@ const PRODUCTS = [
     mp: 4890,
     image: "bharara-king.webp"
   },
-
-
   // =========================================================
   // OTROS
   // =========================================================
-
   {
     id: "fatima-zimaya-extrait",
     brand: "Fatima Zimaya",
     name: "Fatima Zimaya",
     category: "arabe",
     concentration: "Extrait de Parfum",
-    ml: null,
+    ml: 100,
     transfer: 3190,
     mp: 3490,
-    image: ""
+    image: "fatima-zimaya.webp"
   },
-
   {
     id: "paris-corner-mandarin-vintage",
-    brand: "Paris Corner",
+    brand: "Armaf",
     name: "Mandarin Vintage",
     category: "arabe",
-    concentration: "",
-    ml: null,
+    concentration: "Eau de Parfum",
+    ml: 100,
     transfer: 2890,
     mp: 3190,
-    image: ""
+    image: "mandarin-vintage.webp"
   }
-
 ];
