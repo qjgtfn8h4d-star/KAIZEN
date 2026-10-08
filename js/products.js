@@ -142,18 +142,6 @@ const PRODUCTS = [
   },
 
   {
-    id: "al-haramain-dubai-night-tester",
-    brand: "Al Haramain",
-    name: "Dubai Night — Tester",
-    category: "arabe",
-    concentration: "",
-    ml: null,
-    transfer: 3590,
-    mp: 3990,
-    image: ""
-  },
-
-  {
     id: "al-haramain-ruby",
     brand: "Al Haramain",
     name: "Ruby",
@@ -186,18 +174,6 @@ const PRODUCTS = [
     id: "lattafa-yara",
     brand: "Lattafa",
     name: "Yara",
-    category: "arabe",
-    concentration: "Eau de Parfum",
-    ml: 100,
-    transfer: 2550,
-    mp: 2890,
-    image: "yara.webp"
-  },
-
-  {
-    id: "lattafa-yara-rosa",
-    brand: "Lattafa",
-    name: "Yara Rosa",
     category: "arabe",
     concentration: "Eau de Parfum",
     ml: 100,
@@ -889,18 +865,6 @@ const PRODUCTS = [
     category: "arabe",
     concentration: "Parfum",
     ml: 100,
-    transfer: 4490,
-    mp: 4890,
-    image: "bharara-king.webp"
-  },
-
-  {
-    id: "bharara-king-150",
-    brand: "Bharara",
-    name: "King",
-    category: "arabe",
-    concentration: "Parfum",
-    ml: 150,
     transfer: 4490,
     mp: 4890,
     image: "bharara-king.webp"
